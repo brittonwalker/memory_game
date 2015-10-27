@@ -1,11 +1,18 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-  //Click event
   $('.cards').on('click', flipCard);
 
-  //Make sure only two cards can be flipped at a time = 1 turn
-  //cardCounter = 0; +1
+  function randomize() {
+    return (Math.round(Math.random())-0.5);
+  }
+
+  var classes = [ 'blue_wall', 'teal_wall', 'white_wall', 'yellow_wall', 'navy_wall', 'green_wall', 'pink_wall', 'red_wall', 'blue_wall', 'teal_wall', 'white_wall', 'yellow_wall', 'navy_wall', 'green_wall', 'pink_wall', 'red_wall' ];
+  classes.sort( randomize );
+  $('.cards').each(function(i, val) {
+      $(this).addClass(classes[i]);
+  });
+
   var cardCounter = 0;
   var score = 0;
 
@@ -31,16 +38,9 @@ $( document ).ready(function() {
     if(cardCounter == 2){
       setTimeout(function(){
         compareCards(firstFlip, secondFlip);
-      }, 100)
-    checkWinner();
+      }, 400)
     }
-
   }
-
-  //if even (%2), checkWinner/compareCards
-  //else hide image
-
-  //Check if cards are a match
 
   function compareCards(card1, card2){
     if(card1.attr('class') == card2.attr('class')){
@@ -55,12 +55,7 @@ $( document ).ready(function() {
     }
     checkWinner();
   }
-  //Compare two classes; function compareCards(card1, card2)
-      //if match cards are permanently flipped; card1.class === card2.class
-      //else hide cards
 
-  //How to determine winner: checkWinner() for every turn
-    //all cards matched, removed hide class
   function checkWinner(){
     if(score == 8)
     alert('Yeeee son! you won!');
