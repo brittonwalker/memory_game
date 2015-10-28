@@ -24,7 +24,7 @@ body {
   text-align: center;
   padding-top: 7px;
   margin-bottom: 20px;
-  margin-left: 490px;
+  margin-left: 258px;
   margin-top: 25px;
 
 }
@@ -32,7 +32,7 @@ body {
 ul {
   float: right;
   width: 40%;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: #0D2B35;
@@ -41,7 +41,7 @@ ul {
 }
 
 li {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -56,7 +56,7 @@ h1 {
   color: #f1f2f0;
   text-align: center;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 10px;
   font-size: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
