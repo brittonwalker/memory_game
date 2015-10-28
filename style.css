@@ -5,42 +5,84 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
-  background: #37bbe4;
+  background: #e1e0dd;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  width: 100%;
+}
+
+.button {
+  width: 860px;
+  height: 100px;
+  background: #0D2B35;
+  color: #f1f2f0;
+  border-radius: 10px;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 7px;
+  margin-bottom: 20px;
+  margin-left: 490px;
+  margin-top: 10px;
+
+}
+
+ul {
+  float: right;
+  widows: 40%;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #0D2B35;
+  margin-right: 5%;
+  margin-top: 55px;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+img {
+  margin-top: 50px;
+  width: 40%;
 }
 
 h1 {
   width: 100%;
-  height: 111px;
+  height: 200px;
   background: #0D2B35;
   color: #f1f2f0;
   text-align: center;
   margin: 0 auto;
-  padding-top: 20px;
-  font-size: 60px;
+  padding-top: 40px;
+  font-size: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  padding-top: 50px;
 }
 
 #gameBoard {
-  width: 800px;
+  width: 900px;
   background: #e1e0dd;
   margin: 0 auto;
   overflow: auto;
+  margin-top: 50px;
 }
 
 .cards {
-  width: 200px;
+  widows: 200px;
   height: 200px;
-  border: 1px solid #777;
   float: left;
   border-radius: 10px;
+  margin: 10px;
 }
 
 
 
 .blue_wall, .green_wall, .navy_wall, .pink_wall, .red_wall, .teal_wall, .white_wall, .yellow_wall{
-	background: url(sprites/sprites.png) no-repeat;
+	background: url(_images/sprites.png) no-repeat;
 }
 
 .blue_wall{
