@@ -31,7 +31,7 @@ body {
 
 ul {
   float: right;
-  widows: 40%;
+  width: 40%;
   font-size: 25px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
@@ -72,8 +72,6 @@ h1 {
 }
 
 .cards {
-  widows: 200px;
-  height: 200px;
   float: left;
   border-radius: 10px;
   margin: 10px;

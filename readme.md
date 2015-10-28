@@ -16,9 +16,13 @@ Approach Taken:
 
 My approach began with consideration of how the game would be played and what elements I wanted to manipulate before I dug deeper into the logic. The process started with creating a set of user stories which are included at the end of this document. Next, sketch an idea and map the layout using HTML/CSS using divs for the cards manipulating classes and comparing the style attributes for logical results. From there, I used pseudo coding techniques to understand all the obvious components it would take to make this particular game work. MVP was meeting all of the user stories.
 
+Installation Instructions:
+
+Ready to run on load, user only needs to hit 'New Game' button to begin.
+
 Unsolved Problems:
 
-I met my MVP goal for this project. Unsolved problems are additional features I would have liked to implement for a better user experience and tracking statistics; timer, scoreboard, number of clicks, responsiveness, etc. The deadline came to a head as I met my original goals.
+I met my MVP goal for this project. Unsolved problems are additional features I would have liked to implement for a better user experience and tracking statistics; timer, scoreboard, number of clicks, responsiveness, better layout, etc. The deadline came to a head as I met my original goals.
 
 //////////////////
 
