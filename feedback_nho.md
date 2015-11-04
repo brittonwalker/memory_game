@@ -18,7 +18,7 @@
 
 **Meets Expectations**. Nice and clean! Html is clearly structured and validated, CSS looks good, and JS is not overly complex (in the best way)! Moving forward, try to think about ways to make your code more modular, and provide effective wrappers for your data. Would recommend using an object-oriented approach in the future.
 
- Please review my [inline code comments here](https://github.com/brittonwalker/memory-game/compare/master...nolds9:feedback) (prefixed with my initials - "NHO").
+ Please review my [inline code comments here](https://github.com/brittonwalker/memory_game/compare/master...nolds9:feedback) (prefixed with my initials - "NHO").
 
 
 ## Problem Solving
