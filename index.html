@@ -10,6 +10,7 @@
   <script src="script.js"></script>
 </head>
 <body>
+  <!-- NHO: Is this div ever closed? -->
   <div class="header"><img src="_images/thinker.png" alt="" />
     <ul>
       <li>How to play:</li>
@@ -23,6 +24,8 @@
     </ul>
   <h1>CONCENTRATION</h1>
   <div id="gameBoard">
+    <!-- NHO: Can you think of a way to generate these div dynamically? -->
+    <!-- NHO: So as to allow the user to pick how many tiles are generated? -->
     <div class="cards hide"></div>
     <div class="cards hide"></div>
     <div class="cards hide"></div>
@@ -43,3 +46,4 @@
   <div class="button">New Game</div>
 </body>
 </html>
+<!-- NHO: HTML validator is throwing an error for unclosed div tag...maybe on line 13-->

@@ -1,7 +1,7 @@
+/* NHO: CSS validates and looks great! Just ran your code through the atom package Beautify to clean up spacing,etc */
 * {
   box-sizing: border-box;
 }
-
 body {
   width: 100%;
   height: 100%;
@@ -9,11 +9,9 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
-
 .header {
   width: 100%;
 }
-
 .button {
   width: 860px;
   height: 100px;
@@ -26,9 +24,7 @@ body {
   margin-bottom: 20px;
   margin-left: 490px;
   margin-top: 25px;
-
 }
-
 ul {
   float: right;
   width: 40%;
@@ -39,16 +35,13 @@ ul {
   margin-right: 5%;
   margin-top: 55px;
 }
-
 li {
   margin-bottom: 40px;
 }
-
 img {
   margin-top: 50px;
   width: 40%;
 }
-
 h1 {
   width: 100%;
   height: 200px;
@@ -62,7 +55,6 @@ h1 {
   font-weight: 900;
   padding-top: 50px;
 }
-
 #gameBoard {
   width: 900px;
   background: #e1e0dd;
@@ -70,67 +62,54 @@ h1 {
   overflow: auto;
   margin-top: 50px;
 }
-
 .cards {
   float: left;
   border-radius: 10px;
   margin: 10px;
 }
-
-
-
-.blue_wall, .green_wall, .navy_wall, .pink_wall, .red_wall, .teal_wall, .white_wall, .yellow_wall{
-	background: url(_images/sprites.png) no-repeat;
+.blue_wall, .green_wall, .navy_wall, .pink_wall, .red_wall, .teal_wall, .white_wall, .yellow_wall {
+  background: url(_images/sprites.png) no-repeat;
 }
-
-.blue_wall{
-	background-position: 0 0;
-	width: 200px;
-	height: 200px;
+.blue_wall {
+  background-position: 0 0;
+  width: 200px;
+  height: 200px;
 }
-
-.green_wall{
-	background-position: -250.98959350585938px 0;
-	width: 200px;
-	height: 200px;
+.green_wall {
+  background-position: -250.98959350585938px 0;
+  width: 200px;
+  height: 200px;
 }
-
-.navy_wall{
-	background-position: -499.9896240234375px 0;
-	width: 200px;
-	height: 200px;
+.navy_wall {
+  background-position: -499.9896240234375px 0;
+  width: 200px;
+  height: 200px;
 }
-
-.pink_wall{
-	background-position: -700px 0;
-	width: 200px;
-	height: 200px;
+.pink_wall {
+  background-position: -700px 0;
+  width: 200px;
+  height: 200px;
 }
-
-.red_wall{
-	background-position: -700px -249.9965362548828px ;
-	width: 200px;
-	height: 200px;
+.red_wall {
+  background-position: -700px -249.9965362548828px;
+  width: 200px;
+  height: 200px;
 }
-
-.teal_wall{
-	background-position: -498.98614501953125px -250.98960876464844px ;
-	width: 200px;
-	height: 200px;
+.teal_wall {
+  background-position: -498.98614501953125px -250.98960876464844px;
+  width: 200px;
+  height: 200px;
 }
-
-.white_wall{
-	background-position: 0 -250.98960876464844px ;
-	width: 200px;
-	height: 200px;
+.white_wall {
+  background-position: 0 -250.98960876464844px;
+  width: 200px;
+  height: 200px;
 }
-
-.yellow_wall{
-	background-position: -249.98611450195312px -250.98960876464844px ;
-	width: 200px;
-	height: 200px;
+.yellow_wall {
+  background-position: -249.98611450195312px -250.98960876464844px;
+  width: 200px;
+  height: 200px;
 }
-
 .hide {
   background: #163641;
 }
